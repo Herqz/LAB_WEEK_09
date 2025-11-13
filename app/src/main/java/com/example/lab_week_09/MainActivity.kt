@@ -108,6 +108,7 @@ fun Home(
         inputField.value,
         {input-> inputField.value = inputField.value.copy(input)},
         {
+            //module udah nambahin is not blanknya...
             if(inputField.value.name.isNotBlank()){
                 listData.add(inputField.value)
                 inputField.value = Student("")
